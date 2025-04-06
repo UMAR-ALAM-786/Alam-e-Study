@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umar - Developer Portfoloi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{background-color: rgb(3, 3, 59);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(13, 13, 77);
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+        }
+        nav ul li a:hover{
+            color: rgb(95, 95, 202);
+            font-size: 1.1rem;
+        }
+
+            main hr{
+                border: 0;
+                background-color: blueviolet;
+                height: 1.2px;
+                margin: 60px 84px;
+            
+
+        }
+        .left{
+            font-size: 1.5rem;
+        }
+        .firstSection{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 140px 0;
+        }
+
+        .firstSection > div{
+            width: 30%;
+        }
+
+        .leftSection{
+            font-size: 2rem;
+        }
+            
+        .leftSection .btn{
+            padding: 12px;
+            background-color: #071c7d;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            margin: 40px 0;
+        }
+            
+        
+
+        .rightSection img{
+            width: 80%;
+            margin: 50px 0;
+           // background-color: red;
+        }
+        .purple{
+            color: blueviolet;
+        }
+        .text-grey{
+            columns: gray;
+        }
+        #element{
+            color: blueviolet;
+            
+        }
+        .secondSection{
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+        .secondSection h1{
+            font-size: 1.9rem;
+        }
+        .secondSection .box{
+            background-color: white;
+            width: 77vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+        .secondSection .vertical{
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 140px;
+        }
+        .image-top{
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+        .vertical-title{
+            position: relative;
+            top: 75px;
+            left: 00px;
+
+
+        }
+        .vertical-desc{
+            position: relative;
+            top: 86px;
+            color: grey;
+            width: 150px;
+            font-size: 9px;
+
+        }
+        footer{
+            background-color: rgb(19, 3, 44);
+            
+        }
+        .footer{
+            display: flex;
+            padding: 23px 120px;
+            justify-content: space-evenly;
+        }
+        //.footer ul{
+            list-style:none;
+        }
+        .footer > div{
+            width: 233;
+        }
+        footer .footer-rights{
+            text-align: center;
+            color: gray;
+            padding: 23px 0;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Umar's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header> 
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+               Hi, My name is <span class="purple"> Umar Alam</span>
+                <div> and I Thanking you to contact us  </div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit linkedin</button>
+                </div>
+            </div>
+            <div class="rightSection">
+               <img src="bg.png" alt="">
+        </div>
+        </section>
+        <hr>
+
+        <section class="secondSection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+
+            <div class="box">
+            <div class="vertical">
+            <img class="image-top" src="html.png" alt="">
+            <div class="vertical-title"> HTML Developer</div>
+            <div class="vertical-desc">HTML (HyperText Markup Language) is the standard markup language used 
+                to create and structure the content of web pages. It provides the foundation for building websites
+                 by defining the layout, text, images, media, and links on a web page. HTML uses tags to mark up 
+                 elements, indicating their purpose and how they should be displayed on the browser.
+                With HTML, developers can create a wide range of web content, from simple static websites to 
+                complex web applications. Its versatility and ease of use make it an essential language for anyone
+                 interested in web development and design.
+
+            </div>
+            </div>
+
+
+
+            <div class="vertical">
+                <img class="image-top" src="css.png" alt="">
+                <div class="vertical-title"> CSS Developer</div>
+                <div class="vertical-desc">CSS (Cascading Style Sheets) is a fundamental web technology used to
+                     control the presentation and layout of HTML documents. It works alongside HTML to define how 
+                     web pages should appear on different devices and screen sizes. CSS enables web developers to 
+                     separate the content of a web page from its visual design, making it easier to maintain and 
+                     modify the appearance of a website.
+                    CSS operates on a "cascading" principle, where multiple styles can be applied to an element,
+                     and they will be applied in a specific order of precedence. This allows for flexibility and
+                      fine-tuning of the design.
+    
+                </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="javascript.png" alt="">
+                    <div class="vertical-title"> JavaScript</div>
+                    <div class="vertical-desc">JavaScript is a versatile and popular programming language used for
+                         creating dynamic and interactive content on websites. Developed by Brendan Eich in 1995, 
+                         JavaScript was originally designed to add simple interactivity to static HTML pages. However,
+                          over the years, it has evolved into a powerful and full-fledged programming language capable 
+                          of building complex web applications.
+                        
+                        
+        
+                    </div>
+                    </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="java.png" alt="">
+                    <div class="vertical-title"> API</div>
+                    <div class="vertical-desc">
+                        An API, or application programming interface, is a set of defined rules that enable 
+                     different applications to communicate with each other. It acts as an intermediary 
+                        layer that processes data transfers between systems, letting companies open their 
+                        application data and functionality to external third-party developers, business 
+                        partners, and internal departments within their companies.
+                        The definitions and protocols within an API help businesses connect the many 
+                        different applications they use in day-to-day operations, which saves employees 
+                        time and breaks down silos that hinder collaboration and innovation. For 
+                        developers, API documentation provides the interface for communication between 
+                        applications, simplifying application integration.
+
+                        
+                        
+        
+                    </div>
+                    </div>
+                   
+            
+            <span id="element"></span>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first"></div>
+            <h3>Umar's Developer Portfolio</h3>
+            <div class="footer-second"></div>
+            <ul>
+
+                <li>Home</li>
+                <li>Contact</li>
+                <li>links</li>
+                <li>Profile</li>
+                <li>Experience</li>
+            </ul>
+            <ul>
+
+                <li>Services</li>
+                <li>Freelancing</li>
+                <li>My Java Projects</li>
+                <li>My Python Projects</li>
+                <li>Node.js</li>
+            </ul>
+            
+           
+            <div class="footer-third"></div>
+            <ul>
+
+                <li>Content Creator</li>
+                <li>Photoshop</li>
+                <li>AutoCAD 2016</li>
+                <li>Programming</li>
+                <li>Skills</li>
+            </ul>
+            <div class="footer-fourth"></div>
+            <ul>
+
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>J.script</li>
+                <li>php</li>
+                <li>Hobbies</li>
+            </ul>
+            
+        </div>
+
+        <div class="footer-rights">
+           Copyright &#169;  www.umaralamportfolio.com || All Rights Reserved
+        </div>
+    </footer>
+    
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+     <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['alamumar91@gmail.com.', 'Graphic Designer.','Content Creator', 'Self Motivated student.','alamumar91@gmail.com.','Web Developer.', 'Graphic Designer.','Content Creator', 'Self Motivated student.','alamumar91@gmail.com'],
+      typeSpeed: 20,
+    });
+  </script>
+    
+</body>
+</html>

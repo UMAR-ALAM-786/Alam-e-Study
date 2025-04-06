@@ -1,5 +1,16 @@
 # Alam-e-Study | Efficient (E-learning) Web Application                    
-# March 2023 – Aug 2024 
+## March 2023 – Aug 2024 
+# 📄 Research Publication
+# This project is also part of my published research titled:
+
+“Empowering Students: Building an Integrated Application for Enhanced Productivity, Efficiency and Creativity”
+
+Published in: IJSRNSC (International Journal of Scientific Research in Network Security and Communication)
+
+# 1.Indexed on: Google Scholar, ORCID, and IJSRNSC
+
+Overview: The paper highlights how the AI-powered platform improves student learning, productivity, and engagement by integrating 20+ academic tools into one system.
+
 ⚙️ Challenges Faced During Development – Alam-e-Study
 # 1. Modular Integration of 20+ Tools
 Complex Module Architecture: Integrating over 20 independent modules like notepad, smart clock, AI assistant, and quiz system required a modular but interconnected architecture, which was challenging to coordinate and maintain.

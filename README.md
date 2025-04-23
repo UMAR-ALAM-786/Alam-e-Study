@@ -4,7 +4,7 @@
 # This project is also part of my published research titled:
 
 “Empowering Students: Building an Integrated Application for Enhanced Productivity, Efficiency and Creativity”
-https://ijsrnsc.org/index.php/j/article/view/260
+Open Access: https://ijsrnsc.org/index.php/j/article/view/260
 
 Published in: IJSRNSC (International Journal of Scientific Research in Network Security and Communication)
 

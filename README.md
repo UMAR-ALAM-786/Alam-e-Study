@@ -1,4 +1,6 @@
-# Alam-e-Study | Efficient (E-learning) Web Application                    
+# Alam-e-Study | Efficient (E-learning) Web Application  
+GitHub Repository: https://lnkd.in/gJEws5Tc
+## Live Output – https://lnkd.in/ga3-3Gkq
 ## March 2023 – Aug 2024 
 # 📄 Research Publication
 # This project is also part of my published research titled:
